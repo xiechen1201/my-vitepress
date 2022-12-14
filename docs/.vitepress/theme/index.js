@@ -1,10 +1,6 @@
+// .vitepress/theme/index.js
+import DefaultTheme from "vitepress/theme";
+
 export default {
-    themeConfig: {
-      nav: [
-        { text: 'Guide', link: '/guide' },
-        { text: 'Configs', link: '/configs' },
-        { text: 'Changelog', link: 'https://github.com/...' }
-      ]
-    }
-  }
-  
+  ...DefaultTheme,
+};
